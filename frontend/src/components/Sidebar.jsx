@@ -15,7 +15,7 @@ function Sidebar() {
                       <div key={index}>
                         <a href="" className="px-4 py-2 flex items-center gap-2 rounded-lg transition-all hover:bg-[#27272a1f]">
                           <img className="h-8 w-8" src={item.icon_url} alt="" />
-                          <span className="text-sm text-[#38383d]">{item.text}</span>
+                          <span className="truncate text-sm text-[#38383d]">{item.text}</span>
                         </a>
                       </div>
                     )

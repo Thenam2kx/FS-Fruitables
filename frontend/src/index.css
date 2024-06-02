@@ -19,7 +19,6 @@
     -webkit-line-clamp: 2;
     align-self: stretch;
     overflow: hidden;
-    text-align: center;
     text-overflow: ellipsis;
   }
 }
