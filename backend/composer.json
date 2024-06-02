@@ -1,0 +1,16 @@
+{
+    "name": "admin/backend",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Admin\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thenam2kx",
+            "email": "thenam2kx@gmail.com"
+        }
+    ],
+    "require": {}
+}
