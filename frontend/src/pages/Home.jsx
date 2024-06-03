@@ -4,10 +4,15 @@ import GroupProducts from "~/components/GroupProducts"
 
 function Home() {
   return (
-    <main className="flex flex-shrink flex-grow basis-0 rounded-lg">
+    <main className="w-[calc(100%-246px)] rounded-lg">
+      {/* flex flex-shrink flex-grow basis-0 rounded-lg */}
       <div className="flex flex-col gap-3">
         <Slider />
         <QuickLinks />
+        <GroupProducts />
+        <GroupProducts />
+        <GroupProducts />
+        <GroupProducts />
         <GroupProducts />
       </div>
     </main>
