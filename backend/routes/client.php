@@ -1,13 +1,7 @@
 <?php
 
-$router->get('/', function () {
-  echo 'Home';
-});
+use Admin\Backend\Controllers\Client\Home;
 
-$router->get('/about', function () {
-  echo 'About me';
-});
+$router->get('/', Home::class .'@index');
+$router->get('/about', Home::class .'@about');
 
-$router->get('/contact', function () {
-  echo 'Contact me';
-});
