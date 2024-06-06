@@ -1,5 +1,5 @@
 <?php
-namespace Admin\Backend\Common;
+namespace Admin\Fruitables\Common;
 class View {
 
 }

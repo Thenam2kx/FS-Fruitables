@@ -1,7 +1,9 @@
 <?php
-namespace Admin\Backend\Controllers\Client;
+namespace Admin\Fruitables\Controllers\Client;
 
-use Admin\Backend\Common\Controller;
+use Admin\Fruitables\Common\Controller;
+use Admin\Fruitables\Common\Helper;
+use Admin\Fruitables\Models\Product;
 
 class Home extends Controller {
   public function index() {
@@ -10,6 +12,7 @@ class Home extends Controller {
       'templatePath' => '$templatePath',
       'compiledPath' => '$compiledPath',
     ];
+
 
     $this->renderClient('HomeView', $data);
 

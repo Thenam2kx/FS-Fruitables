@@ -1,13 +1,9 @@
 {
-    "name": "admin/backend",
-    "type": "project",
+    "name": "admin/fruitables",
     "autoload": {
         "psr-4": {
-            "Admin\\Backend\\": "src/"
-        },
-        "files": [
-            "helper.php"
-        ]
+            "Admin\\Fruitables\\": "src/"
+        }
     },
     "authors": [
         {
@@ -17,9 +13,9 @@
     ],
     "require": {
         "bramus/router": "~1.6",
-        "vlucas/phpdotenv": "^5.6",
-        "doctrine/dbal": "^4.0",
         "eftec/bladeone": "^4.13",
-        "rakit/validation": "^1.4"
+        "doctrine/dbal": "^4.0",
+        "rakit/validation": "^1.4",
+        "vlucas/phpdotenv": "^5.6"
     }
 }

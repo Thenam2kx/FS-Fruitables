@@ -10,6 +10,7 @@
   <ul>
     <li>templatePath: {{ $templatePath }}</li>
     <li>compiledPath: {{ $compiledPath }}</li>
+    <li>jbfnmkvfmvkmfvkmfk</li>
   </ul>
 </body>
 </html>
